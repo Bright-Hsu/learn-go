@@ -17,15 +17,6 @@ func main() {
 	var str string
 	//reader := bufio.NewReader(os.Stdin)
 	for {
-		/*
-			input, err := reader.ReadString('\n')
-			if err != nil {
-				fmt.Println("An error occured while reading input. Please try again", err)
-				continue
-			}
-			input = strings.TrimSuffix(input, "\n")
-
-		*/
 		n, err := fmt.Scanln(&str)
 		fmt.Println(n)
 		guess, err := strconv.Atoi(str)
