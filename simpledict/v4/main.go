@@ -61,6 +61,7 @@ func query(word string) {
 	if err != nil {
 		log.Fatal(err)
 	}
+	
 	req.Header.Set("Connection", "keep-alive")
 	req.Header.Set("DNT", "1")
 	req.Header.Set("os-version", "")
