@@ -12,7 +12,6 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	secretNumber := rand.Intn(maxNum)
 	// fmt.Println("The secret number is ", secretNumber)
-
 	fmt.Println("Please input your guess")
 	var str string
 	//reader := bufio.NewReader(os.Stdin)
